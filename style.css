@@ -1,0 +1,55 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #66CDAA;
+    color: #045F5F;
+    text-align: center;
+    padding: 20px;
+}
+/* Create three columns using flexbox */
+.wrap {
+    display: flex;
+}
+
+.content {
+    flex: 1; /* Equal width for all columns */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #66CDAA;
+    background-color: #AAF0D1;
+    max-width: 100px;
+}
+/* Task 1: Text Color */
+.color-example h3 {
+    color: #008B8B;
+}
+
+/* Task 2: Background Color */
+.color-example p {
+  background-color: #7BCCB5;
+}
+/* Task 1: Font Family and Size */
+.typography-example p {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
+}
+/* Task 2: Text Alignment and Line Height */
+.typography-example p {
+    text-align: right;
+    line-height: 1.6;
+}
+/* Task 1: ID Selector */
+#uniqueDiv {
+    background-color: #008B8B;
+    font-size: 18px;
+}
+/* Task 2: Class Selector */
+.info {
+    border: 2px solid #4caf50;
+    padding: 10px;
+}
